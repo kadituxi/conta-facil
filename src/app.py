@@ -3,6 +3,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 
 from db.db import engine
+from routes import webhook
 
 
 @asynccontextmanager
@@ -19,3 +20,5 @@ app = FastAPI(
     version="1.0.0",
     lifespan=lifespan,
 )
+
+app.include_router(webhook.router, prefix="/webhook")

@@ -1,0 +1,19 @@
+# Secrets and KEYS
+SECRET_KEY=a6dfc9f0f9bc6e26d3715f843ff63a866ffe4e1882353f593bc530338480d8b6
+
+# Database settings
+DATABASE_URL=postgresql+asyncpg://luis:Lord2pm@localhost/conta_facil_db
+
+# Email settings
+MAIL_SERVER=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=luismuhele@gmail.com
+MAIL_PASSWORD=fdxj zeud rubk bkja
+MAIL_FROM=noreply@fastapiblog.com
+MAIL_USE_TLS=true
+frontend_url=localhost:8000
+
+# Evolution
+API_KEY=429683C4C977415CAAFCCE10F7D57E11
+BASE_URL=http://127.0.0.1:8080
+INSTANCE_NAME=bot

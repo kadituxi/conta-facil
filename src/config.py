@@ -21,5 +21,11 @@ class Settings(BaseSettings):
     mail_use_tls: bool
     frontend_url: str
 
+    api_key: SecretStr
+    base_url: str
+    instance_name: str
+
+    google_api_key: str
+
 
 settings = Settings()  # type: ignore[call-arg]
