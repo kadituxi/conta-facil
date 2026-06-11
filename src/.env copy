@@ -1,0 +1,14 @@
+# Secrets and KEYS
+SECRET_KEY=
+
+# Database settings
+DATABASE_URL=
+
+# Email settings
+MAIL_SERVER=
+MAIL_PORT=
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_FROM=
+MAIL_USE_TLS=
+frontend_url=
